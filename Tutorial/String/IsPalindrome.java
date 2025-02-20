@@ -1,7 +1,5 @@
 package Tutorial.String;
 
-import Utils.SwapTwoValues;
-
 public class IsPalindrome {
     public static boolean isPalindrome(String word) {
 
