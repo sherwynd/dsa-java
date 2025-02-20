@@ -1,0 +1,22 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Java compiled files
+*.class
+
+# Package directories (uncomment if applicable)
+#/lib/
+#/target/
+#/build/
+#/out/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vim swap files
+*.swp
+
+# VS Code files (if using)
+.vscode/
