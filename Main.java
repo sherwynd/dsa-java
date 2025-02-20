@@ -1,7 +1,5 @@
-import Tutorial.Array.FindMinimum;
-import Tutorial.Array.ReverseArray;
-import Tutorial.Math.FindEvenNumber;
-import Utils.GenerateIntegerOfArray;
+import Tutorial.Array.*;
+import Tutorial.String.IsPalindrome;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -9,9 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         //Dummy data
-        Integer[] data = GenerateIntegerOfArray.generateIntegerOfArray(10, 10, 100);
-
-//        Integer[] data = {1221, 124, 22, 102, 100, 241};
+//        Integer[] data = GenerateIntegerOfArray.generateIntegerOfArray(10, 10, 100);
+//        String word = "ioiooioi";
 
         //Tutorial
         //Find Even Number
@@ -23,7 +20,19 @@ public class Main {
         //Find Minimum Value of Array
 //        FindMinimum.findMinimum(data);
 
-        // 9. Palindrome Number
+        //Find Second Maximum Value of Array
+//        FindSecondMaximum.findSecondMaximum(data);
+
+        //Move Zero to End of Array
+//        MoveZeroToEndOfArray.moveZeroToEndOfArray(data);
+
+        //Find Missing Number (range 1 to n)
+//        FindMissingValueInArray.findMissingValueInArray(data);
+
+        //Is Palindrome(String)
+//        IsPalindrome.isPalindrome(word);
+
+        //9. Palindrome Number
 //        Leetcode.PalindromeNumber.palindromeNumber();
     }
 }

@@ -40,7 +40,7 @@ public class PalindromeNumber {
         int rev=0;
         if(x<0) return false;
 
-        for(int i=x;i>0;i/=10){
+        for(int i = x;i > 0;i/=10){
             int lastDigit=i%10;
             rev = rev*10+lastDigit;
         }
