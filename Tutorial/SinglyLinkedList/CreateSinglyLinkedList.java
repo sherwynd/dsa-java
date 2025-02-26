@@ -1,9 +1,9 @@
-package Tutorial.LinkedList;
+package Tutorial.SinglyLinkedList;
 
 import Utils.SinglyLinkedList;
 
-public class CreateLinkedList {
-    public static void createLinkedList() {
+public class CreateSinglyLinkedList {
+    public static void createSinglyLinkedList() {
         SinglyLinkedList<Integer> myList = new SinglyLinkedList<>();
 
         myList.addLast(8);

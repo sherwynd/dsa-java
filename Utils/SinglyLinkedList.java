@@ -3,11 +3,11 @@ package Utils;
 public class SinglyLinkedList<T> {
     private ListNode<T> head;
 
-    public ListNode<T> getHead() {
+    public ListNode<T> getHead() { //get ListNode
         return head;
     }
 
-    public void setHead(ListNode<T> newHead) {
+    public void setHead(ListNode<T> newHead) { //set new ListNode
         this.head = newHead;
     }
 
@@ -71,6 +71,21 @@ public class SinglyLinkedList<T> {
             previous.next = newNode;
              */
         }
+    }
+
+    public void createLoop(int start) {
+        ListNode<T> current = head;
+        ListNode<T> loopStartNode = null;
+        int index = 1;
+
+        while (current.next != null) {
+            if (index == start) {
+                loopStartNode = current;
+            }
+            current = current.next;
+            index++;
+        }
+        current.next = loopStartNode; // Creating the loop
     }
 
     public void deleteFirst() {
